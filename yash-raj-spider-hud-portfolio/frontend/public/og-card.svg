@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="glow" cx="76%" cy="30%" r="65%"><stop offset="0" stop-color="#25394b"/><stop offset=".42" stop-color="#101a25"/><stop offset="1" stop-color="#0b0d10"/></radialGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse"><path d="M64 0H0V64" fill="none" stroke="#343a42" stroke-width="1" opacity=".42"/></pattern>
+    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <rect width="1200" height="630" fill="url(#grid)" opacity=".3"/>
+  <circle cx="938" cy="220" r="180" fill="none" stroke="#e02d3b" stroke-width="1" opacity=".35"/>
+  <circle cx="938" cy="220" r="116" fill="none" stroke="#77a9c9" stroke-width="1" stroke-dasharray="5 10" opacity=".5"/>
+  <path d="M0 530C230 420 300 70 730 180S1000 550 1200 80" fill="none" stroke="#e02d3b" stroke-width="2" opacity=".4"/>
+  <path d="M750 0L1020 630M1060 0L780 630" stroke="#343a42" opacity=".6"/>
+  <circle cx="940" cy="220" r="90" fill="#e02d3b" opacity=".12" filter="url(#soft)"/>
+  <g fill="none" stroke="#f4f1ec" stroke-width="5" stroke-linecap="square" stroke-linejoin="round"><path d="M865 145l75 75 75-75M940 220v115"/></g>
+  <circle cx="940" cy="220" r="7" fill="#e02d3b"/>
+  <text x="72" y="102" fill="#a9b0b8" font-family="monospace" font-size="15" letter-spacing="5">YASH RAJ // PORTFOLIO OS-01</text>
+  <text x="72" y="285" fill="#f4f1ec" font-family="Arial Narrow, sans-serif" font-size="112" font-weight="900" letter-spacing="-5">YASH</text>
+  <text x="72" y="385" fill="none" stroke="#e02d3b" stroke-width="2" font-family="Arial Narrow, sans-serif" font-size="112" font-weight="900" letter-spacing="-5">RAJ</text>
+  <text x="78" y="445" fill="#e02d3b" font-family="monospace" font-size="18" letter-spacing="6">CYBERSECURITY / AI / WEB</text>
+  <text x="78" y="505" fill="#a9b0b8" font-family="monospace" font-size="14" letter-spacing="2">BUILD. SECURE. EXPERIMENT.</text>
+  <text x="78" y="575" fill="#77a9c9" font-family="monospace" font-size="12" letter-spacing="3">SYSTEM STATUS: ONLINE</text>
+</svg>
